@@ -14,17 +14,24 @@ The goal is to demonstrate dynamic content, data handling, animations, and user 
 
 ## 2. Project Structure
 202274680-BaderAlqahtani-assignment-2/
+
 ├── README.md
+
 ├── index.html
+
 ├── css/
 │ └── styles.css
+
 ├── js/
 │ └── script.js
+
 ├── assets/
 │ └── images/
+
 ├── docs/
 │ ├── ai-usage-report.md
 │ └── technical-documentation.md
+
 └── .gitignore
 
 ---
