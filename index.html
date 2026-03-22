@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bader Alqahtani | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Bader Alqahtani</h1>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="themeBtn" class="btn small" type="button" aria-label="Toggle theme">
+        🌙 Theme
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p class="tagline">Junior software engineering student at KFUPM</p>
+          <p>
+            Hi, I’m <strong>Bader Alqahtani</strong>, a junior Software Engineering
+            student at King Fahad University of Petroleum and Minerals with strong
+            interests in information technology and software development. I have
+            experience in Python programming, frontend development, and foundational
+            knowledge of AI and machine learning, and I enjoy solving technical problems
+            through structured and efficient solutions. Through academic projects,
+            leadership roles, and earning the CAPM certification, I have developed
+            strong technical, teamwork, and project management skills.
+          </p>
+        </div>
+
+        <div class="profile-card">
+          <img
+            src="assets/images/WhatsApp Image 2026-02-11 at 9.11.46 PM.jpeg"
+            alt="Portrait of Bader Alqahtani"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <h2>Projects</h2>
+      <p class="muted">
+        Search projects live by typing keywords such as
+        <strong>campus</strong>, <strong>booking</strong>, or <strong>event</strong>.
+      </p>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="projectSearch"
+          placeholder="Search projects..."
+          aria-label="Search projects"
+        />
+      </div>
+
+      <div id="projectsGrid" class="projects-grid">
+        <article
+          class="card project-card"
+          data-title="Campus Course Route Planner"
+          data-description="A smart campus navigation tool that visualizes schedules, maps buildings, and calculates walking routes between classes."
+        >
+          <img src="assets/images/Screenshot 2026-02-11 215311.png" alt="Campus Course Route Planner project preview" />
+          <div class="card-body">
+            <h3>Campus Course Route Planner</h3>
+            <p>
+              A smart campus navigation tool that allows students to enter their course CRNs
+              and visualize their daily schedule on an interactive campus map. The system
+              displays building locations, calculates the optimal walking route between classes,
+              and provides key details such as number of courses, buildings visited, and total
+              distance traveled for the selected day.
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="card project-card"
+          data-title="Smart Event Booking System"
+          data-description="A user-friendly event booking platform for browsing events, purchasing tickets, and managing bookings."
+        >
+          <img src="assets/images/Screenshot 2026-02-11 220140.png" alt="Smart Event Booking System project preview" />
+          <div class="card-body">
+            <h3>Smart Event Booking System</h3>
+            <p>
+              A user-friendly event booking platform that allows users to securely
+              log in, browse events, and purchase tickets with ease. The system
+              streamlines event management by enabling organizers to list events,
+              manage ticket availability, and track bookings, while providing
+              attendees with a smooth and intuitive booking experience.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <p id="emptyState" class="empty-state" hidden>
+        No projects found. Try another keyword.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <h2>Contact</h2>
+
+      <form id="contactForm" class="form" novalidate>
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your name" />
+          <small class="error-text" id="nameError"></small>
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" placeholder="you@example.com" />
+          <small class="error-text" id="emailError"></small>
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+          <small class="error-text" id="messageError"></small>
+        </label>
+
+        <button class="btn" type="submit">Send</button>
+        <p id="formMsg" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Bader Alqahtani. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
