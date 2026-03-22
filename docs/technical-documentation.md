@@ -17,14 +17,14 @@ The goal is to demonstrate dynamic content, data handling, animations, and user 
 ├── README.md
 ├── index.html
 ├── css/
-│   └── styles.css
+│ └── styles.css
 ├── js/
-│   └── script.js
+│ └── script.js
 ├── assets/
-│   └── images/
+│ └── images/
 ├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
+│ ├── ai-usage-report.md
+│ └── technical-documentation.md
 └── .gitignore
 
 ---

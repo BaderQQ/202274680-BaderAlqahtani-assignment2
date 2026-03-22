@@ -39,7 +39,7 @@ This version enhances the original project by adding **dynamic content, data han
 
 To run this project locally: 
 1. clone the repository: 
-git clone https://github.com/BaderQQ/202274680-BaderAlqahtani-assignment1.git 
+git clone https://github.com/BaderQQ/202274680-BaderAlqahtani-assignment2.git 
 
 2. Navigate to the project folder: 
 cd 202274680-BaderAlqahtani-assignment2 
